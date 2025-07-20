@@ -31,4 +31,6 @@ pip install -r requirements.txt
 python src/main.py
 streamlit run src/app.py
 ```
+
+## Demo of working 
 <img width="2561" height="4053" alt="screenshot with expander open" src="https://github.com/user-attachments/assets/e3f0e20b-29d3-494b-89fd-779c225ec75d" />
