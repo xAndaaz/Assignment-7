@@ -1,4 +1,4 @@
-# 🐧 Penguin Species Prediction App
+# Penguin Species Prediction App
 
 ### An Interactive Machine Learning Web Application
 
