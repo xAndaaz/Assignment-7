@@ -1,6 +1,6 @@
 # Penguin Species Prediction App
 
-### An Interactive Machine Learning Web Application
+### An Interactive Machine Learning Web Application using Streamlit
 
 This project demonstrates how to deploy a trained machine learning model as a user-friendly and interactive web application using Streamlit. The goal is to bridge the gap between a functional model and an accessible end-product, allowing users to not only get predictions but also to understand the model's behavior and the underlying data.
 
