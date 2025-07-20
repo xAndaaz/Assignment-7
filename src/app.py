@@ -11,9 +11,9 @@ penguins = sns.load_dataset("penguins").dropna()
 
 # Page setup
 st.set_page_config(page_title="Penguin Predictor", layout="wide")
-st.title("🐧 Penguin Species Predictor")
+st.title("Penguin Species Predictor")
 
-# --- Sidebar ---
+# Sidebar
 st.sidebar.header("Input Features")
 
 def user_input_features():
@@ -46,7 +46,7 @@ def user_input_features():
 
 input_df = user_input_features()
 
-# --- Prediction Display ---
+# Prediction Display
 prediction = model.predict(input_df)
 prediction_proba = model.predict_proba(input_df)
 
@@ -68,7 +68,7 @@ with pred_col2:
     if image_path:
         st.image(image_path, width=300)
 
-# --- Visual Analysis ---
+# Visual Analysis
 st.header("Visual Analysis")
 
 # Scatter plots
@@ -113,3 +113,5 @@ with st.expander("View Raw Dataset"):
     st.write("Species Distribution:")
     species_counts = penguins['species'].value_counts()
     st.bar_chart(species_counts)
+
+
